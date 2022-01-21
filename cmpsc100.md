@@ -39,7 +39,7 @@
 In addition to the sequence above, pull requests are also made on GitHub. After pushing, open your branch on GitHub and make a pull request. Assign your teammates as reviewers and merge after approval.
 
 ### Variables and Functions
-Variables come in different data types, particularly `int` or integer, `float` or real, `str` or string, `char` or character, and `bool` or boolean. To convert data types, just type int([variable]), float([variable]), etc. Functions can be productive or non-productive.
+Pseudocode applies to all languages and is very helpful for planning projects. Variables come in different data types, particularly `int` or integer, `float` or real, `str` or string, `char` or character, and `bool` or boolean. To convert data types, just type int([variable]), float([variable]), etc. Functions can be productive or non-productive.
 |Operator             |Pseudocode           |Operator             |Pseudocode           |
 |:--------------------|:--------------------|:--------------------|:--------------------|
 |`=`                  |GETS                 |`!=`                 |NOT EQUAL
