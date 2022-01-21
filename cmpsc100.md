@@ -1,4 +1,4 @@
-# CMPSC100
+# CMPSC100: Computational Expression
 
 ## General
 * CommonMark https://commonmark.org/help/
