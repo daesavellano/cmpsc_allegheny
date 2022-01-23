@@ -15,7 +15,7 @@
 |`rm -rf [directory]`   |Deletes a directory     |destructive                     |
 |`git status`           |Checks if there are changes in your files since you last committed on GitHub 
 |`git add -A`               |Adds files to a queue so they can be committed      |“-A” stands for all files
-|`git commit -m "[description]`            |Takes a permanent snapshot|“-m” stands for message, description should be brief and includes the quotation marks
+|`git commit -m "[description]"`            |Takes a permanent snapshot|“-m” stands for message, description should be brief and includes the quotation marks
 |`git push`               |sends changes to GitHub                  |After this step, all you need to do is enter your password.|
 
 ### Navigating Repositories
