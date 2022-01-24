@@ -48,3 +48,11 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 |`/`                  |DIVIDES              |`/=`                 |DIVIDE GETS
 |`*`                  |MULTIPLIES           |`*=`                 |MULTIPLY GETS
 |`input()`            |READS                |`print()`            |DISPLAYS
+
+## Week 1
+
+### Data Structures
+#### About Lists
+* Lists start counting from the number 0.
+* The count number is called the “index” and can be said to be n-1
+* To make a list, use the snippet: `listName = [“item0”, “item1”, “item2”, “item3”]`
