@@ -54,5 +54,14 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 ### Data Structures
 #### About Lists
 * Lists start counting from the number 0.
-* The count number is called the “index” and can be said to be n-1
-* To make a list, use the snippet: `listName = [“item0”, “item1”, “item2”, “item3”]`
+* The count number is called the **“index”** and can be said to be *n-1*
+* **Commands**
+  * **Create**: To make a list, use the snippet: `listName = [“item0”, “item1”, “item2”, “item3”]`
+  * **Display list**: `print(listName)` will give you `['item0', 'item1', 'item2', 'item3']`
+  * **Display item**: `print(listName[0])` will give you `item0`
+  * **Add item**: `listName.append("item4")` will edit the list to be `['item0', 'item1', 'item2', 'item3', 'item4']`
+  * **Remove item**: `listName.remove("item4")` will edit the list to be `['item0', 'item1', 'item2', 'item3']`
+* Different from dictionaries
+
+#### Methods
+
