@@ -49,6 +49,7 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 |`/`                  |DIVIDES              |`/=`                 |DIVIDE GETS
 |`*`                  |MULTIPLIES           |`*=`                 |MULTIPLY GETS
 |`input()`            |READS                |`print()`            |DISPLAYS
+|`for :`              |FOREACH              |            |
 
 ## Week 1
 
