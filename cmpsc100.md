@@ -3,6 +3,7 @@
 ## General
 * CommonMark https://commonmark.org/help/
 * Course Schedule and Video Playlist on Discord
+* You should be able to find a table of contents somewhere on the screen
 
 ## Week 0
 
