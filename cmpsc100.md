@@ -52,8 +52,7 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 
 ## Week 1
 
-### Data Structures
-#### About Lists
+### Lists
 * Lists start counting from the number 0.
 * The count number is called the **“index”** and can be said to be *n-1*
 * Different from dictionaries
@@ -68,5 +67,19 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
   * **Add item**: `listName.insert(3, "item4")` will add the item to the 3rd spot on the list `['item0', 'item1', 'item2', 'item4', 'item3']`
   * **Secret item**: `listName.pop(3)` will hide the third index (item4)
 
-#### Methods
+### Loops
+#### While loops
+* Use conditions and loop over and over until condition isn't true
 
+#### [For loops](https://youtu.be/kJSv7-KBJ9w)
+* Good for counting
+* For a set size
+* Holds the last value after loop is done
+  * ex.
+  * `for name in listNames:` <br> `print(name)`
+  * will print all the list items
+  * typing `print(name)` again will print out the last item
+* `len(name)` will give the number of items in the list (*n*)
+* We can combine the for loop and len function by using the snippet below
+  * `letters = 0` <br> `for name in listNames:` <br> `letters += len(name)` <br> `print(letters/len(listName))` <br>
+  * will show the average length
