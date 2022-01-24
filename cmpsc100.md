@@ -84,7 +84,7 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
   * `letters = 0` <br> `for name in listNames:` <br> `letters += len(name)` <br> `print(letters/len(listName))` <br>
   * will show the average length
 * example
-``
+```
 for i in range(len(list)):
      print(list[i])
-``
+```
