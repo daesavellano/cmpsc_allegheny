@@ -65,7 +65,7 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
   * **Add item**: `listName.append("item4")` will add the item to the end of the list `['item0', 'item1', 'item2', 'item3', 'item4']`
   * **Remove item**: `listName.remove("item4")` will edit the list to be `['item0', 'item1', 'item2', 'item3']`
   * **Add item**: `listName.insert(3, "item4")` will add the item to the 3rd spot on the list `['item0', 'item1', 'item2', 'item4', 'item3']`
-  * **Secret item**: `listName.pop(3)` will hide the third index (item4)
+  * **Secret item**: `listName.pop(3)` will hide the third index (item4); only accepts index numbers, not item name itself
 
 ### Loops
 #### While loops
