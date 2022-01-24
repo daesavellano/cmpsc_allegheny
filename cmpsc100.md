@@ -83,3 +83,8 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 * We can combine the for loop and len function by using the snippet below
   * `letters = 0` <br> `for name in listNames:` <br> `letters += len(name)` <br> `print(letters/len(listName))` <br>
   * will show the average length
+* example
+``
+for i in range(len(list)):
+     print(list[i])
+``
