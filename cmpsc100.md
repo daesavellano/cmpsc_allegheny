@@ -89,3 +89,12 @@ Pseudocode applies to all languages and is very helpful for planning projects. V
 for i in range(len(list)):
      print(list[i])
 ```
+
+slicing
+```python
+#  start  skip
+#    |   /
+deck[0:5:2]
+#      |
+#     stop
+```
