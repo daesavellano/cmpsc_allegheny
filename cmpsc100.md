@@ -111,7 +111,7 @@ print(result)
 ```
 will result in `false`
 
-#### If-Else Statements
+#### [If-Else Statements](https://youtu.be/K5QezomnVVs)
 * you can compare integers
 ```
 cats = int(input("How many cats?"))
@@ -137,10 +137,20 @@ else:
    print(
 ```
 
-#### and-or
+#### [And-Or](https://youtu.be/xUCWbUZwY_w)
 ```
 if cat_is_here == true and dog_is_here == true:
    print("dan is happy")
 else:
    print("i need them all :(")
+```
+
+#### [While Loops](https://youtu.be/7p80y8JKvYk)
+```
+while snake_hp > 0:
+   sidekick_name = input("What is sidekick name: ")
+   sidekick_type = input("What is sidekick type: ")
+   attack_value = ulysses_secret_super_attack(sidekick_type, sidekick_name)
+   snake_hp -= attack_value
+print("snake defeated")
 ```
