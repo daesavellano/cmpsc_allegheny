@@ -43,13 +43,13 @@ In addition to the sequence above, pull requests are also made on GitHub. After 
 Pseudocode applies to all languages and is very helpful for planning projects. Variables come in different data types, particularly `int` or integer, `float` or real, `str` or string, `char` or character, and `bool` or boolean. To convert data types, just type int([variable]), float([variable]), etc. Functions can be productive or non-productive.
 |Operator             |Pseudocode           |Operator             |Pseudocode           |
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|`=`                  |GETS                 |`!=`                 |NOT EQUAL
+|`=`                  |GETS                 |`!=`                 |NOT EQUAL?
 |`+`                  |ADDS                 |`+=`                 |ADD GETS
 |`-`                  |SUBTRACTS            |`-=`                 |SUBTRACT GETS
 |`/`                  |DIVIDES              |`/=`                 |DIVIDE GETS
 |`*`                  |MULTIPLIES           |`*=`                 |MULTIPLY GETS
 |`input()`            |READS                |`print()`            |DISPLAYS
-|`for :`              |FOREACH              |            |
+|`for :`              |FOREACH              |`==` or "double equals"  |EQUAL?
 
 ## Week 1
 
@@ -97,4 +97,50 @@ slicing
 deck[0:5:2]
 #      |
 #     stop
+```
+
+### Control Structures
+
+#### Boolean
+* `True` or `False`
+* you can use `>`, `<`, `==`, and `!=` to compare values (not to assign)
+example
+```
+result = 7 == 9   # "7 is equal to 9?"
+print(result)
+```
+will result in `false`
+
+#### If-Else Statements
+* you can compare integers
+```
+cats = int(input("How many cats?"))
+dogs = int(input("How many dogs?"))
+
+if cats > dogs:
+   print("luman has fooled us")
+elif dogs > cats:
+   print("luman has failed us")
+else:
+   print("it is true that they are both amazing")
+```
+
+* you can compare string
+```
+name = input("Cat name: "
+
+if name == "Ulysses":
+   print("best cat!!"
+elif name == "not Ulysses":
+   print("pretty good but meh")
+else:
+   print(
+```
+
+#### and-or
+```
+if cat_is_here == true and dog_is_here == true:
+   print("dan is happy")
+else:
+   print("i need them all :(")
 ```
