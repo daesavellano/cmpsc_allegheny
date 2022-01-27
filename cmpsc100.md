@@ -154,3 +154,24 @@ while snake_hp > 0:
    snake_hp -= attack_value
 print("snake defeated")
 ```
+<!-- 27 January 2022 -->
+### Strings
+<!-- video 1 -->
+* a data type that acts as a list (of characters)
+* `print(len(word))` displays the number of letters
+* given `word = cat` and using `print(word[1])` will give `a`
+* use of loops with string
+```
+word = "gel"
+changed_word = []
+for letter in word:
+    shift = ord(letter) + 13            # ord stands for ordinal
+    changed_word.append(chr(shift))     # chr stands for character
+print(changed_word)                     # gives the traditional list, not like string
+```
+* combining lists to string
+```
+transformed = "".join(changed_word)     # gives "try"
+transformed = " ".join(changed_word)    # gives "t r y"
+
+```
