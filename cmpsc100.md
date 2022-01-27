@@ -158,6 +158,7 @@ print("snake defeated")
 ### Strings
 <!-- video 1 -->
 * a data type that acts as a list (of characters)
+* immutable, can't be changed directly
 * `print(len(word))` displays the number of letters
 * given `word = cat` and using `print(word[1])` will give `a`
 * use of loops with string
@@ -192,3 +193,16 @@ for name in members:
     else:
         print("That's not Claude!")
 ```
+* methods
+| Method | Argument(s) |Effect |
+|--------|-------------|-------|
+|`.lower()`|None | Converts entire string to lower case |
+|`.upper()`|None |Converts entire string to upper case |
+|`.count()`|`string` to count instances of|Counts the number of times a given substring appears in a `string`|
+|`.endswith()`|`string`/`tuple` of `string`s to look for | Returns `boolean` if string does/n't end with `string` argument |
+|`.startswith()`|`string`/`tuple` of `string`s to look for| Returns `boolean` if string does/n't start with `string` argument |
+|`.replace()`|`string` to find, `string` to replace it with, `integer` times to replace| Replace searched string with specified replacement `N` times|
+|`.split()`|`string` on which to to "split" `string` (default: spaces) |Splits a `string` into parts (a `list`)|
+|`.join()`|`list` to "glue" together into a string|Fuses a `string` together from a `list` of `string`s|
+
+In the above table, `join()` behaves a bit differently than the others.
