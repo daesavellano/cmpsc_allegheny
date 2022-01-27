@@ -194,6 +194,7 @@ for name in members:
         print("That's not Claude!")
 ```
 * methods
+
 | Method | Argument(s) |Effect |
 |--------|-------------|-------|
 |`.lower()`|None | Converts entire string to lower case |
