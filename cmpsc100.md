@@ -208,6 +208,7 @@ for name in members:
 
 In the above table, `join()` behaves a bit differently than the others.
 * f-string
+* start with f (formatting)
 * `\n` = new line
 * `\t` = tab
 * print(f"{line_num}\t{line}") would give
