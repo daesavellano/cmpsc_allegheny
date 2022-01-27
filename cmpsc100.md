@@ -207,3 +207,10 @@ for name in members:
 |`.join()`|`list` to "glue" together into a string|Fuses a `string` together from a `list` of `string`s|
 
 In the above table, `join()` behaves a bit differently than the others.
+* f-string
+* `\n` = new line
+* `\t` = tab
+* print(f"{line_num}\t{line}") would give
+```
+1    line
+```
