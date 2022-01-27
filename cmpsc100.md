@@ -173,5 +173,22 @@ print(changed_word)                     # gives the traditional list, not like s
 ```
 transformed = "".join(changed_word)     # gives "try"
 transformed = " ".join(changed_word)    # gives "t r y"
-
+```
+<!-- video 2 -->
+* verifying if uppercase or lowercase
+```
+while True:
+    the_crew = input("Enter the names of the crew (separated by ,): ")
+    response = input("Enter another set [Y/N]: "
+    if response.upper() == "N":             # forces input for response to be uppercase
+        break                               # ends if you put "N" or "n"
+```
+* changing capitalization
+```
+for name in members:
+    name = name.strip()
+    if name.lower().startswith("c"):
+        print("Oh, that's Claude!")
+    else:
+        print("That's not Claude!")
 ```
