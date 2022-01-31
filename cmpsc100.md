@@ -226,6 +226,11 @@ In the above table, `join()` behaves a bit differently than the others.
   * `def` keyword
   * `functionName` and parameters
   * colon to declare
+* can be:
+  * **productive**: changes a value/data type
+  * **non-productive**: doesn't get value, ex. print
+* there are built-in functions
+  * int, ord, chr, round, input, print, float
 * example
 ```
 def meow():
