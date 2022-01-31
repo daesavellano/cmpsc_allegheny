@@ -215,3 +215,57 @@ In the above table, `join()` behaves a bit differently than the others.
 ```
 1    line
 ```
+
+## Week 2
+
+### Functions
+
+#### [Basic Structure](https://youtu.be/OfTszvcFGs4)
+
+* start with `def functionName():`
+  * `def` keyword
+  * `functionName` and parameters
+  * colon to declare
+* example
+```
+def meow():
+   print("Meow!")
+
+meow()
+```
+* you can also add a `return`
+* example
+```
+def meow():
+   return "Meow!"
+
+message = meow()
+print(message)
+```
+
+#### [Parameters](https://youtu.be/Wa8rIQvEF0w)
+
+* given the following code
+```
+def meow(name, message):
+    print(f"{name} says {message}!")
+```
+```
+meow("Ulysses","Meow")
+```
+* `meow()` accepts 2 parameters `name` and `message`
+* allows us to dedicate functions to a specific type of functionality
+
+#### [Scope](https://youtu.be/sXeNaOTEmY4)
+
+* There are **local** and **global** scopes
+* Variables named outside functions are global
+* Variables named inside functions are local
+* example
+```
+def meow(name = "Ulysses", message = "Meow!"
+    print(f"{name} says {message}")
+```
+* `meow()` gives `Ulysses says Meow!`
+* `meow("Scoop")` gives `Scoop says Meow!`
+* `meow(message = "Mrowr <3")` gives `Ulysses says Mrowr <3`
