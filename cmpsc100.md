@@ -282,3 +282,9 @@ def meow(name = "Ulysses", message = "Meow!"
 * Anything created in a program is an **object** that has a **state**
   * A **state** is a snapshot of what an object is at any given time and all its properties
 * **json**: JavaScript Object Notation
+
+#### [import random](https://youtu.be/BSC-2EkHy0Q)
+* **random.choice()**: takes one parameter (the data structure), gives one random value
+* **random.sample()**: takes two parameters (the data structure, how many you want), shakes up list but not permanently
+* **random.shuffle()**: takes one parameter (the data structure), shakes up list permanently
+* **random.randint()**: takes two parameters (start and end int), gives random integer
