@@ -274,3 +274,11 @@ def meow(name = "Ulysses", message = "Meow!"
 * `meow()` gives `Ulysses says Meow!`
 * `meow("Scoop")` gives `Scoop says Meow!`
 * `meow(message = "Mrowr <3")` gives `Ulysses says Mrowr <3`
+
+### Modules
+* supplement things we can do
+
+#### [Object Oriented Programming](https://youtu.be/X0zly7l_6Jo)
+* Anything created in a program is an **object** that has a **state**
+  * A **state** is a snapshot of what an object is at any given time and all its properties
+* **json**: JavaScript Object Notation
