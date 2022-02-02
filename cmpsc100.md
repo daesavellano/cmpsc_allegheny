@@ -288,3 +288,7 @@ def meow(name = "Ulysses", message = "Meow!"
 * **random.sample()**: takes two parameters (the data structure, how many you want), shakes up list but not permanently
 * **random.shuffle()**: takes one parameter (the data structure), shakes up list permanently
 * **random.randint()**: takes two parameters (start and end int), gives random integer
+
+#### [Methods](https://youtu.be/v54qnv8zqck)
+* Compared to functions, methods are associated with objects
+* `self` is a class in Python
