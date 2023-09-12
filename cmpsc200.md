@@ -1,9 +1,11 @@
-**CMPSC 200** | Computer Organization
+# CMPSC 200 | Computer Organization
 
-Links
+## Links
 * [Course Calendar](https://docs.google.com/spreadsheets/d/1GfsuIb8FTavf8DxEMHkgFUKRcM72-BKYz4IVLhSMCPg/edit#gid=0)
 * [CARDIAC Manual](https://drive.google.com/file/d/1QoDsEtMVLv6DjEOr7LzVQkzStC2F_xC6/view)
 * [CARDIAC Simulator](https://www.cs.drexel.edu/~bls96/museum/cardsim.html)
+
+## CARDIAC
 
 **Instruction Set Architecture (ISA)**: set of architecture based on processor architecture
 * ex. Input → Clear accumulator and add → Add → Store → Output → Halt
