@@ -87,12 +87,13 @@ helloworld: 	.asciz  "Hello, World!\n"
 
 ### ARMv6 Assembly Opcodes
 ```
-mov    r0, #2		   @ moves the value 2 into register 0
-mov    r1, r0		   @ copies the value 2 from register 0 to register 1					@ r0 and r1 are both equal to 2 now
-add    r0, r1, r2		@ r1 + r2 = r0
-add    r1 , r2		   @ r1 + r2 = r1
+mov    r0, #2		@ moves the value 2 into register 0
+mov    r1, r0		@ copies the value 2 from register 0 to register 1
+			@ r0 and r1 are both equal to 2 now
+add    r0, r1, r2	@ r1 + r2 = r0
+add    r1 , r2		@ r1 + r2 = r1
 mov    r0, #’A’		@ load value of A (65) into r0
 ldr    r1, =outstr	@ load address of outstr into r1
 strb   r0, [r1]		@ store the first byte in r0 into the address starting at r1
-strb   r0, r1		   @ does not work
+strb   r0, r1		@ does not work
 ```
