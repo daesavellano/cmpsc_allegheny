@@ -56,3 +56,43 @@
   * outer digits always add up to 9
 
 **Cell 99**: turns into JMP command for the cell immediately after you JMPd
+
+## Assembly
+
+```
+.thumb_func		    	@ Necessary because sdk uses BLX
+						@ at symbol stands for comments
+.global main	   	 	@ Provide program starting address so it knows where to go
+						@ Required for build
+
+main:					@ Required for build
+	BL	stdio_init_all	@ Branch and link, initialize uart or usb
+	LDR R0, =helloworld	@ Load register (LDR) of helloworld string into memory
+	BL	printf			@ use BL instruction to call pico_printf (a C call)
+	SVC	0				@ Service call to end program
+	
+helloworld: 	.asciz  "Hello, World!\n"
+```
+### registers vs memory
+**registers**
+- on the processor, but not the processor
+- called by R[0-12]
+- operate on data
+- limited to 32 bytes of instruction and/or storage
+**memory**
+- outside of processor
+- called by mnemonics like 0x123f
+- cannot be operated on
+    - can only store
+
+### ARMv6 Assembly Opcodes
+```
+mov    r0, #2		   @ moves the value 2 into register 0
+mov    r1, r0		   @ copies the value 2 from register 0 to register 1					@ r0 and r1 are both equal to 2 now
+add    r0, r1, r2		@ r1 + r2 = r0
+add    r1 , r2		   @ r1 + r2 = r1
+mov    r0, #’A’		@ load value of A (65) into r0
+ldr    r1, =outstr	@ load address of outstr into r1
+strb   r0, [r1]		@ store the first byte in r0 into the address starting at r1
+strb   r0, r1		   @ does not work
+```
