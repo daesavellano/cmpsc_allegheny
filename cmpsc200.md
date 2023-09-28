@@ -97,3 +97,16 @@ ldr    r1, =outstr	@ load address of outstr into r1
 strb   r0, [r1]		@ store the first byte in r0 into the address starting at r1
 strb   r0, r1		@ does not work
 ```
+
+### Decimal to Binary 8-Bit
+1. Divide the decimal number by 2 and store remainder in array.
+2. Divide the quotient by 2.
+3. Repeat step 2 until we get the quotient equal to zero.
+4. Equivalent binary number would be the reverse of all remainders of step 1.
+￼
+
+### Data size directives (Cortex M0+)
+* Byte | .byte | 8-bit value (max: 255 because + `0` = 256)
+* Half word | .hword | 16-bit value
+* Word | .word | 32-bit value
+* Double word | .dword | 64-bit value
